@@ -1,3 +1,5 @@
+**NOTE** There are known defects in the current state of the code, cause this repostory is mainly working for a Qt programmer interview.
+
 QSlideText
 ----------
 
