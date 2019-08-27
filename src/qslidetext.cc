@@ -96,11 +96,6 @@ void QSlideTextPrivate::update(bool repaint)
 {
   Q_Q(QSlideText);
 
-  // mode check
-  if (m_text.isEmpty()) {
-    m_mode = QSlideText::Still;
-  }
-
   // draw backgroud
   if (repaint) {
     // prepare background

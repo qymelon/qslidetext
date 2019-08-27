@@ -15,6 +15,8 @@ cmake_minimum_required(VERSION 3.5.0)
 # project
 project(slidetext_sln)
 
+set (CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.13.0\\5.13.0\\msvc2017\\lib\\cmake\\Qt5")
+
 # output
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build)

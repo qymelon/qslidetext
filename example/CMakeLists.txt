@@ -22,7 +22,7 @@ set(CMAKE_AUTORCC ON)
 find_package(Qt5 COMPONENTS Core Widgets Gui REQUIRED)
 
 # source
-file(GLOB_RECURSE SOURCES *.cc *.c *.h)
+file(GLOB_RECURSE SOURCES *.cc *.c *.ui *.h)
 
 # target
 add_executable(${PROJECT_NAME} WIN32 ${SOURCES})
